@@ -41,9 +41,9 @@ window:
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  padding:
-    x: 5
-    y: 5
+  #padding:
+  #  x: 0
+  #  y: 0
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
   # Window decorations
@@ -806,30 +806,30 @@ font:
   # Highlight window damage information.
   #highlight_damage: false
 colors:
-  name: Grandshell
-  author: ""
+  name: Garuda (dr460nized)
+  author: dr460nf1r3
   primary:
-    background: "#000000"
-    foreground: "#bebebe"
+    background: '0x0a1124'
+    foreground: '0xeec49a'
   cursor:
-    text: "#000000"
-    cursor: "#bebebe"
+    text: '0x0a1124'
+    cursor: '0xeec49a'
   normal:
-    black: "#000000"
-    red: "#f25a5a"
-    green: "#77bb33"
-    yellow: "#efc334"
-    blue: "#5555dd"
-    magenta: "#c350ff"
-    cyan: "#5af2ee"
-    white: "#bebebe"
+    black: '0x0a1124'
+    red: '0x5F4149'
+    green: '0xEB3247'
+    yellow: '0xBC4349'
+    blue: '0xF35645'
+    magenta: '0xF6A73B'
+    cyan: '0xFAD32F'
+    white: '0xeec49a'
   bright:
-    black: "#222222"
-    red: "#ffbbbb"
-    green: "#dcf692"
-    yellow: "#f6df92"
-    blue: "#b2baf6"
-    magenta: "#f09fff"
-    cyan: "#5af2ee"
-    white: "#eeeeee"
-theme: Grandshell
+    black: '0xa6896b'
+    red: '0x5F4149'
+    green: '0xEB3247'
+    yellow: '0xBC4349'
+    blue: '0xF35645'
+    magenta: '0xF6A73B'
+    cyan: '0xFAD32F'
+    white: '0xeec49a'
+theme: Garuda.dr460nized
